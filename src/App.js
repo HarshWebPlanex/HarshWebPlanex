@@ -24,7 +24,7 @@ function App() {
       login(); // Set user as authenticated
       setIsAuth(true);
       setAlertMessage(null);
-      navigate("/"); // Redirect to home page after successful login
+      navigate("/dashboard"); // Redirect to home page after successful login
     } else {
       setAlertMessage("Invalid credentials. Please register.");
     }
@@ -42,7 +42,7 @@ function App() {
       <header style={{ padding: "10px", backgroundColor: "#f8f9fa", borderBottom: "1px solid #ddd" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div style={{ fontSize: "24px", fontWeight: "bold" }}>
-            <a href="/" style={{ textDecoration: "none", color: "inherit" }}>
+            <a href="/dashboard" style={{ textDecoration: "none", color: "inherit" }}>
               My App
             </a>
           </div>

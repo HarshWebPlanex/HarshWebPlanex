@@ -11,9 +11,12 @@
     "applicationinsights": "^3.4.0",
     "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
     "font-awesome": "^4.7.0",
     "framer-motion": "^11.11.11",
     "harsh-app": "file:",
+    "mysql2": "^3.11.4",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.5",
     "react-dom": "^18.3.1",
@@ -23,6 +26,7 @@
     "react-scripts": "^5.0.1",
     "redux": "^5.0.1",
     "redux-thunk": "^3.1.0",
+    "sweetalert2": "^11.14.5",
     "web-vitals": "^4.2.4"
   },
   "scripts": {

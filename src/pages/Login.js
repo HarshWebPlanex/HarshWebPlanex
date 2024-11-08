@@ -21,7 +21,7 @@ const Login = ({ onLogin }) => {
             if (storedUser && storedUser.email === email && storedUser.password === password) {
                 // If credentials match, call the onLogin function passed from App.js
                 onLogin(true); // Pass success to parent component (App.js)
-                navigate("/"); // Redirect to home page
+                navigate("/dashboard"); // Redirect to home page
             } else {
                 // If credentials don't match, show error message
                 setMessage("Invalid credentials. Please register.");

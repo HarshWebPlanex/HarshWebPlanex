@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from 'react-router-dom'; // Import NavLink
+import { NavLink } from 'react-router-dom';
 
 const Dashboard = () => {
     return (
@@ -14,7 +14,7 @@ const Dashboard = () => {
                         className="brand-image img-circle elevation-3"
                         style={{ opacity: ".8" }}
                     /> */}
-                    <span className="brand-text font-weight-light" style={{ marginLeft: '35px' }}>
+                    <span className="brand-text font-weight-light" style={{ marginLeft: '60px' }}>
                         Admin Panel
                     </span>
                 </a>
